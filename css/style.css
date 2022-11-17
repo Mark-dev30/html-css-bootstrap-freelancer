@@ -21,34 +21,65 @@
 
 
 
+.background-white{
+    background-color: white;
+}
+
+.color_black{
+    color: #2c3e50;
+}
+
+.color_white{
+    color: white;
+}
+
+
+
+
 /* HEADER */
 
-
-.row_header{
-    height: 80px;
-}
-
-.col-4, .col-12{
-    background-color: green;
-    height: 50px;
-    outline: 1px solid black;
-}
 
 
 
 /* MAIN */
 
 /* BOOTSTRAP */
-.height{
-    height: 400px;
+
+.img-avatar{
+    width: 20%;
+}
+
+.line_left, .line_right{
+    width: 100px;
+    height: 45px;
+}
+
+.line{
+    height: 3px;
+    border-radius: 25%;
+}
+
+.stars{
+    width: 50px;
+    height: 45px;
+}
+
+.stars i{
+    font-size: 25px;
 }
 
 /* PORTFOLIO */
+.content, .line, .portfolio .content img{
+    width: 100%;
+}
 
 
 /* ABOUT */
 
-
+.btn_download{
+    background-color: transparent;
+    border-color: white;
+}
 
 /* CONTACT */
 
